@@ -11,7 +11,13 @@
             }
         ]
     },
-    "environment": {},
+    "environment": {
+        "hideintro": true,
+        "uilayout": "terminal",
+        "uieditorpath": "/root/example",
+        "showide": true,
+        "ide": "ssh host01 '/opt/start-vscode.sh /root/example'"
+    },
     "backend": {
         "imageid": "ubuntu:2004"
     }
