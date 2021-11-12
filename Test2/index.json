@@ -11,11 +11,8 @@
             }
         ]
     },
-    "environment": {
-        "hideintro": true,
-        "uilayout": "editor-terminal"
-    },
+    "environment": {},
     "backend": {
-        "imageid": "docker"
+        "imageid": "ubuntu:2004"
     }
 }
