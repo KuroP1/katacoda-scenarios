@@ -16,6 +16,6 @@
         "uilayout": "editor-terminal"
     },
     "backend": {
-        "imageid": "Docker-Swarm"
+        "imageid": "docker-swarm"
     }
 }
