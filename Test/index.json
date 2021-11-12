@@ -1,0 +1,21 @@
+{
+    "title": "Test1",
+    "description": "This is a test...",
+    "difficulty": "Beginner",
+    "time": "5 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1",
+                "text": "step1.md"
+            }
+        ]
+    },
+    "environment": {
+        "hideintro": true,
+        "uilayout": "editor+terminal"
+    },
+    "backend": {
+        "imageid": "docker"
+    }
+}
