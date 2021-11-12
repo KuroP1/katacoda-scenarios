@@ -2,5 +2,5 @@ A Katacoda scenario is a series of Markdown files, bash scripts and a JSON file 
 
 ## Task
 
-Fuck myself
+Fuck yourself
 `docker pull mysql/mysql:8`{{execute}}
