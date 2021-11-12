@@ -13,7 +13,7 @@
     },
     "environment": {
         "hideintro": true,
-        "uilayout": "editor+terminal"
+        "uilayout": "terminal"
     },
     "backend": {
         "imageid": "docker"
