@@ -2,6 +2,5 @@ A Katacoda scenario is a series of Markdown files, bash scripts and a JSON file 
 
 ## Task
 
-Clone our example repository that contains the set of documentation with the following command:
-
+Fuck myself
 `docker pull mysql/mysql:8`{{execute}}
