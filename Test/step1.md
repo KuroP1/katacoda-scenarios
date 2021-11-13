@@ -3,4 +3,4 @@ A Katacoda scenario is a series of Markdown files, bash scripts and a JSON file 
 ## Task
 
 Fuck yourself
-`git clone ttps://github.com/KuroP1/breakcoins.git`{{execute}}
+`git clone https://github.com/KuroP1/katacoda-scenarios.git`{{execute}}
