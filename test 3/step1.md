@@ -6,8 +6,7 @@ Fuck yourself
 `git clone https://github.com/KuroP1/katacoda-scenarios.git`{{execute}}
 
 
-<iframe style="width: 700px;height: 400px;" src="https://www.youtube-nocookie.com/embed/KeJJ34BvA7Q" 
-	frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 	
 ## Test
 
