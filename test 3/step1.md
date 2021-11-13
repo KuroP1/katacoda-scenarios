@@ -11,8 +11,7 @@ Fuck yourself
    src="/images/testimage.png" name="imgbox" id="imgbox"></iframe>
 ## Test
 
-<iframe style="width: 700px;height: 400px;" src="https://imgur.com/LFhsBcY" 
-	frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe>
+<iframe style="width: 700px;height: 400px;" src="https://imgur.com/LFhsBcY" frameborder="0" scrolling="no" width="100%" height="100%"></iframe>
 	
    
    
