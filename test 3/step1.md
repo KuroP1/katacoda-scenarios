@@ -10,6 +10,4 @@ Fuck yourself
 	frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	
 ## Test
-	
-<iframe frameborder="0" scrolling="no" width="100%" height="100%"
-   src="/testimage.png" name="imgbox" id="imgbox"></iframe>
+
