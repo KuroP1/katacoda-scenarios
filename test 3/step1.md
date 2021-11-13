@@ -13,4 +13,4 @@ Fuck yourself
 
 	
 <iframe frameborder="0" scrolling="no" width="100%" height="100%"
-   src="/testimage.png" name="imgbox" id="imgbox"></iframe>
+   src="testimage.png" name="imgbox" id="imgbox"></iframe>
