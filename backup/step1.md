@@ -1,6 +1,6 @@
 Setup and login the Wordpress environment.
 
-Before backuping your data, you need to install Wordpress. Please follow the below instructions to install Wordpress.
+Before backuping your data, you need to install Wordpress. 
 
 ## 1. download `docker-compose.yml` file
 - `git clone https://github.com/KuroP1/docker-compose.git`{{execute}}
