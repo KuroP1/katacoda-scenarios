@@ -5,7 +5,7 @@ First set-up a simple Wordpress.
 ### 2. use docker container
 - `cd docker-compose`{{execute}}
 - `docker-compose up`{{execute}}
-### 3.view the wordpress
+
 ### 3. access and setup wordpress
 - URL: <pre>https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com/</pre>
 Enter simple information in wordpress
