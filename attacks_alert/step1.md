@@ -1,4 +1,4 @@
-Setup and login to the Wordpress environment.
+Setup and login to the WordPress environment.
 
 Before installing the 'CookieYes' plugin, you need to install WordPress. Please follow the below instructions to install WordPress.
 
