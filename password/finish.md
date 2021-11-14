@@ -1,0 +1,1 @@
+Congrats, you have successfully installed and config the Password Strength Settings for WooCommerce plugin.
