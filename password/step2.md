@@ -1,0 +1,1 @@
+Now you need to install the plugin
