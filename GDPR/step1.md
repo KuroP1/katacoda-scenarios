@@ -1,0 +1,2 @@
+# Introduction of 'CookieYes' plugin
+This 'CookieYes' plugin is used to make your cookies compliance the General Data Protection Regulation (GDPR) requirements. In the other words, users can select which information to provide in the cookie. This plugin also can let cookie compliance in accordance with the CCPA requirements. In the next step, we will teach you to install the 'CookieYes' plugin and how to use this plugin.
