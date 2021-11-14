@@ -10,7 +10,7 @@ Please follow the following instructions to install UpdraftPlus plugin.
 - ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/backup/step2-1.jpg "a title")
 
 ### 2. click the `install` button to install the UpdraftPlus plugin.
-- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/backup/step2-2.jpg"a title")
+- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/backup/step2-2.jpg "a title")
 
 ### 3. click the `activate` button to activate the plugin.
 - ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/backup/step2-3.jpg "a title")
