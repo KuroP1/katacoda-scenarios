@@ -1,1 +1,0 @@
-This plugin can Strengthen the existing of password-based authentication and authorization
