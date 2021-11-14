@@ -1,19 +1,26 @@
 {
-    "title": "Tutorial of setting the configurable alerts for WordPress",
-    "description": "This scenario will show hoe to setup a configurable alert by using plugin.",
+    "title": "General Data Protection Regulation (GDPR) ",
+    "description": "The General Data Protection Regulation (EU) 2016/679 (GDPR) is a regulation in EU law on data protection and privacy in the European Union (EU) and the European Economic Area (EEA).",
     "difficulty": "Intermediate",
-    "time": "60 minutes",
+    "time": "30 minutes",
     "details": {
         "steps": [
-        {
-            "title": "Step 1",
-            "text": "step1.md"
+            {
+                "title": "Step 1",
+                "text": "step1.md"
+            },
+            {
+                "title": "Step 2",
+                "text": "step2.md"
+            }
+        ],
+        "intro": {
+          "text": "intro.md",
+          "code": "foreground.sh"
         },
-        {
-            "title": "Step 2",
-            "text": "step2.md"
+        "finish": {
+          "text": "finish.md"
         }
-    ]
     },
     "environment": {
         "uilayout": "editor-terminal"
