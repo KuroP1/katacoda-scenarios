@@ -5,18 +5,17 @@
     "time": "60 minutes",
     "details": {
         "steps": [
-		{
-			"title": "Step 1",
-			"text": "step1.md"
-		},
-		{
-			"title": "Step 2",
-			"text": "step2.md"
-		}
-        ]
+        {
+            "title": "Step 1",
+            "text": "step1.md"
+        },
+        {
+            "title": "Step 2",
+            "text": "step2.md"
+        }
+    ]
     },
     "environment": {
-        "hideintro": true,
         "uilayout": "editor-terminal"
     },
     "backend": {
