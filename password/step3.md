@@ -8,6 +8,6 @@ There is multiple features in the configue
 
 
 ### 1.Visit WooCommerce setting and click accounts and privacy
-- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/password/images/Step3.png"setting page")
+- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/password/images/Step3.png "setting page")
 ### 2. change settings
-- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/password/images/Step3-1.png"config page")
+- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/password/images/Step3-1.png "config page")
