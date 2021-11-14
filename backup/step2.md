@@ -7,7 +7,7 @@ UpdraftPlus is one of the powerful Wordpress plugin for backuping data.
 Please follow the following instructions to install UpdraftPlus plugin.
 
 ### 1. go to plugin page and click the `add new` button.
-- ![Alt text](https://raw.githubusercontent.com/redfrogsss/COMP3335Grp10/main/backup/step2-1.png "a title")
+- ![Alt text](https://github.com/KuroP1/katacoda-scenarios/blob/main/backup/step2-1.jpg "a title")
 
 ### 2. click the `install` button to install the UpdraftPlus plugin.
 - ![Alt text](https://raw.githubusercontent.com/redfrogsss/COMP3335Grp10/main/backup/step2-2.png "a title")
