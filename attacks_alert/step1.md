@@ -4,7 +4,7 @@ Setup the WordPress environment
 - `git clone https://github.com/Lawrencelwl/docker_compose_yml`{{execute}}
 	
 ### 2. launch docker containers
-- `cd grafana_alert`{{execute}}
+- `cd docker_compose_yml`{{execute}}
 - `docker-compose up -d`{{execute}}
 
 ### 3. access and setup wordpress
