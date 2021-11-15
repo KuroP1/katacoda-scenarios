@@ -5,16 +5,16 @@ Now we know that there are many types of database attacks. How should they be de
 Assuming you have completed all settings correctly.If there are any problem, please go back to pervious course to learn again.
 
 Now, go back to the Grafana homepage add click the '+' icon.
-[Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-1.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-1.PNG "a title")
 
 click 'add an new panel'
-[Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-2.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-2.PNG "a title")
 
-[Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-3.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-3.PNG "a title")
 Here you can create your own dashboard to display what you want to display. On the right hand side you can set up the chart settings, and on the bottom left is where you can edit SQL statement.
 
 click 'edit SQL' to modify the SQL statement.
-[Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-4.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-4.PNG "a title")
 
 you can copy this SQL statement
 <pre class="text" data-target="clipboard">
@@ -26,7 +26,7 @@ WHERE $__timeFilter(event_time) AND
       argument LIKE "%  %"
 GROUP BY $__timeGroup(event_time,'1m')
 </pre>
-[Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-5.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-5.PNG "a title")
 
 This dashboard will count the number of results that match the criteria every minute. It is able to detect SQL injection because the condition is set to restrict the use of wordpress users, and the operation type is query which is the most common method of SQL injection. The most important thing is to restrict the SQL statement from having more than one consecutive space. As mentioned in the previous step, one of the methods of SQL injection is to use comment symbols, which causes SQL statements to have more than one consecutive space. So this setting can find out if someone is doing SQL injection. The normal dashboard should not show any data, but if there is data shown in the graph, it means that someone may be doing SQL injection and should be investigated and handled as soon as possible.
 
@@ -35,11 +35,11 @@ This dashboard will count the number of results that match the criteria every mi
 now click 'apply' on the upper right corner and go back to the dashboard.
 
 click 'add panel' button to create new panel.
-[Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-6.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-6.PNG "a title")
 
 This time we need to change the type of this panel.
 click the 'Time series' on the upper right corner and find 'Bar Chart' during the dropdown menu.
-[Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-7.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-7.PNG "a title")
 
 click 'edit SQL' to modify the SQL statement and copy this SQL statement
 <pre class="text" data-target="clipboard">
@@ -52,7 +52,7 @@ GROUP BY 1
 ORDER BY 2 desc
 Limit 10;
 </pre>
-[Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-8.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-8.PNG "a title")
 
 This dashboard will count the number of times the same SQL statement is executed. Also, because of the conditional limits, it helps to determine if these statements are used as DDos. Administrators should check which user is running the SQL statement when the number of times it is executed is greater than a certain value and limit the account.
 
