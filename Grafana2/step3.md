@@ -55,5 +55,3 @@ Limit 10;
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana2/images/step3-8.PNG "a title")
 
 This dashboard will count the number of times the same SQL statement is executed. Also, because of the conditional limits, it helps to determine if these statements are used as DDos. Administrators should check which user is running the SQL statement when the number of times it is executed is greater than a certain value and limit the account.
-
-In addition, you can freely create different panels to monitor the corresponding information. Not only can you detect the situation as soon as possible, but you can also prevent the situation from happening and minimize the damage.
