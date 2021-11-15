@@ -1,6 +1,6 @@
 {
     "title": "Payment Card Industry Data Security Standard (PCI DSS)",
-    "description": "",
+    "description": "This scenario will show how to use the 'WooCommerce Stripe Payment Gateway' and 'Payment Plugins for Stripe WooCommerce' plugin to compliance the Payment Card Industry Data Security Standard (PCI DSS) requirements.",
     "difficulty": "Intermediate",
     "time": "30 minutes",
     "details": {
