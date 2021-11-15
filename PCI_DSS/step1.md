@@ -1,0 +1,2 @@
+# Introduction of 'CookieYes' plugin
+This 'WooCommerce Stripe Payment Gateway' and 'Payment Plugins for Stripe WooCommerce' plugin can provide a  payment method for your website which compliance with the Payment Card Industry Data Security Standard (PCI DSS) requirements. In the other words, users can use this payment method to buy your products. In the next step, we will teach you to install the 'WooCommerce Stripe Payment Gateway' and 'Payment Plugins for Stripe WooCommerce' plugin and how to use this plugin.
