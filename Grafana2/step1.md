@@ -3,8 +3,6 @@ Before you start, please make sure you have completed the previous course. This 
 
 ## 1.Setup three Container mysql,wordpress and grafana
 
-`docker network create wordpress-network`{{execute}}
-
 `docker run -d --name mysql-server -e MYSQL_ROOT_PASSWORD=12345 -e MYSQL_DATABASE=wordpress -e MYSQL_USER=wordpress_user -e MYSQL_PASSWORD=secret mysql`{{execute}}
 
 `docker run -d -e WORDPRESS_DB_HOST=mysql -e WORDPRESS_DB_USER=wordpress_user -e WORDPRESS_DB_PASSWORD=secret  --link mysql-server:mysql -p 8000:80 wordpress`{{execute}}
