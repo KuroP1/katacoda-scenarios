@@ -1,5 +1,5 @@
 # Description:
-This scenario will show how to use the 'CookieYes' plugin to compliance the General Data Protection Regulation (GDPR) requirements.
+The General Data Protection Regulation (EU) 2016/679 (GDPR) is a regulation in EU law on data protection and privacy in the European Union (EU) and the European Economic Area (EEA).
 
 # Learning Objective:
 - Enhance users individuals' control and rights over their personal data.
