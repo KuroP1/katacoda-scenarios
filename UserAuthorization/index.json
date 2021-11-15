@@ -1,7 +1,7 @@
 {
     "title": "Set the staff's privilege",
     "description": "This is a scenario showing how to manage the user role",
-    "time": "30 minutes",
+    "time": "45 minutes",
     "details": {
         "steps": [
         {
@@ -15,10 +15,6 @@
         {
             "title": "Step 3",
             "text": "step3.md"
-        },
-        {
-            "title": "Step 4",
-            "text": "step4.md"
         }
     ],
     "intro": {
