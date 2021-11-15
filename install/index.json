@@ -1,0 +1,42 @@
+{
+    "title": "How to build Woocommerce platform",
+    "description": "This is a scenario showing how to build Woocommerce platform",
+    "difficulty": "Beginner",
+    "time": "60minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1",
+                "text": "step1.md"
+            },
+            {
+                "title": "Step 2",
+                "text": "step2.md"
+            },
+            {
+                "title": "Step 3",
+                "text": "step3.md"
+            },
+            {
+                "title": "Step 4",
+                "text": "step4.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        }
+    },
+    "environment": {
+        "uilayout": "terminal",
+        "showdashboard": true,
+        "dashboards": [
+            {
+                "name": "Port 8000",
+                "port": 8000
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu:2004"
+    }
+}
