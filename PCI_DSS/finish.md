@@ -10,4 +10,4 @@ If the scenario is part of a set of related scenarios, the table of contents wil
 You can learn how to install WordPress and WooCommerce in billows links.
 
 - Scenario 'How to build Woocommerce platform'
-Url: https://www.katacoda.com/elvisyeung/scenarios/install
+- Url: https://www.katacoda.com/elvisyeung/scenarios/install
