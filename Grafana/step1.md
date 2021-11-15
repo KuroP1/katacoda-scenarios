@@ -4,9 +4,6 @@
 
 Before we using wordpress, we need to create a database system to store the data. So we need to setup a MYSQL container first.
 
-Since we need to link up mysql,wordpress and grafana, so we need to create a network for both three of them to communication
-`docker network create wordpress-network`{{execute}}
-
 `docker run -d --name mysql-server -e MYSQL_ROOT_PASSWORD=12345 -e MYSQL_DATABASE=wordpress -e MYSQL_USER=wordpress_user -e MYSQL_PASSWORD=secret mysql`{{execute}}
 *if the image was not exist, docker will pull the image automatically.
 
