@@ -2,8 +2,6 @@ There are a total of 8 rights for individuals is provided by the GDPR. Respectiv
 
 ## The right to be informed
 
-	Ygyuygu
-
 The right to be informed covers some of the key transparency requirements of the UK GDPR. It is about providing individuals with clear and concise information about what you do with their personal data.
 - Users have the right to be informed about the collection and use of their personal data.
 - The website needs to tell the user that the purpose of collecting the user information.
