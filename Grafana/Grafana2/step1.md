@@ -1,6 +1,6 @@
 # Setup
 Before you start, please make sure you have completed the previous course. This tutorial will not focus the setup process and focus on how to create a dashboard.
-
+https://www.katacoda.com/elvisyeung/courses/grafana/grafana1
 ## 1.Setup three Container mysql,wordpress and grafana
 
 `docker run -d --name mysql-server -e MYSQL_ROOT_PASSWORD=12345 -e MYSQL_DATABASE=wordpress -e MYSQL_USER=wordpress_user -e MYSQL_PASSWORD=secret mysql`{{execute}}
