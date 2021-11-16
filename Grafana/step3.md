@@ -3,8 +3,10 @@ Now we know that all wordpress operations can be viewed in general_log. So we ne
 
 ## 1.Log in to Grafana
 Let's go back to the tab "Grafrana" . First we need to create a account. input 'admin' at both username and password.
-- `show variables like '%general%';`{{execute}}
-- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/images/step%203-1.PNG "a title")
+
+`show variables like '%general%';`{{execute}}
+
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/images/step%203-1.PNG "a title")
 
 For security reasons, you will be asked to change your default password.
 After your change the password, click submit.
