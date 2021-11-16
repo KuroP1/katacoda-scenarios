@@ -1,0 +1,21 @@
+{
+    "title": "Grafana Tutorial",
+    "description": "How to Auditing, Monitoring, Alerting and Detecting Insider/External Attacks on wordpress",
+    "courses": [
+      {
+        "course_id": "Grafana",
+        "title": "Backup your important data by schedule",
+        "description": "Learn how to backup your website data"
+      },
+      {
+        "course_id": "Grafana2",    
+        "title": "Enable 2FA on WordPress or WooCommerce",
+        "description": "Enable 2FA on WordPress or WooCommerce"
+      },
+      {
+        "course_id": "Grafana3",
+        "title": "Improve the system security via Wordfence",
+        "description": "Improve the system security via Wordfence"
+      }
+    ]
+  }
