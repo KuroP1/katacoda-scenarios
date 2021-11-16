@@ -6,6 +6,10 @@
     "details": {
         "steps": [
         {
+            "title": "A simple understanding of the rights of individuals is provided by the GDPR",
+            "text": "step0.md"
+        },
+        {
             "title": "Step 1",
             "text": "step1.md"
         },
