@@ -1,4 +1,4 @@
-# Cookie setting
+# WooCommerce setting
 
 After installing the 'WooCommerce Stripe Payment Gateway' and 'Payment Plugins for Stripe WooCommerce' Plugin, you can enable the functions of the 'Stripe' Plugin to compliance the Payment Card Industry Data Security Standard (PCI DSS) requirements. Now you can go to the setting of 'WooCommerce' to enable the functions of the 'Stripe' Plugin.
 
