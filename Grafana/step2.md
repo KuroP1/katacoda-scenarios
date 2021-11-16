@@ -18,7 +18,7 @@ then login as root user
 After login successful, use sql statement to check the general_log is enable or not.
 `show variables like '%general%';`{{execute}}
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/images/step%202-1.PNG "a title")
-As you can see, the general_log value is 'OFF'. We need to excute some SQL statement to enable it.
+- As you can see, the general_log value is 'OFF'. We need to excute some SQL statement to enable it.
 
 `set global general_log=on;`{{execute}}
 
