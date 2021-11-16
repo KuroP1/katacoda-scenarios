@@ -19,6 +19,6 @@ go back to the terminal, then login as wordpress_user to mysql container.
 `exit`{{execute}}
 `mysql -u wordpress_user -psecret`{{execute}}
 now input a SQL statement:
-`select * /* from my */ from mysql.user;`
+`select * /* from my */ from mysql.user;`{{execute}}
 
 then refresh the dashboard, you should see a green point on the graph.That means it find a record meet those condition.
