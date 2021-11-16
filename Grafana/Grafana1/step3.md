@@ -6,20 +6,20 @@ Let's go back to the tab "Grafrana" . First we need to create a account. input '
 
 `show variables like '%general%';`{{execute}}
 
-![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/images/step%203-1.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%203-1.PNG "a title")
 
 For security reasons, you will be asked to change your default password.
 After your change the password, click submit.
 
 ## 2.add new data source
 Now you will see the Grafana homepage like the picture. First we need to add a new data source to connect the mysql database. click the gear icon 'configuration' then click 'data sources'.
-![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/images/step%203-2.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%203-2.PNG "a title")
 
 click 'add data sources'
-![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/images/step%203-3.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%203-3.PNG "a title")
 
 Search 'mysql' and select it.
-![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/images/step%203-4.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%203-4.PNG "a title")
 
 ## 3.input mysql connection
 Now you are reqiured to input some information to connect with the mysql-server. Please input the same information like the picture. 
@@ -31,7 +31,7 @@ username : here the will use the root user since this account have all privilege
 password: Since we using root account this time,password will be the root_password that you define when create the mysql-server container.
 
 After input all information, scroll down to the bottom of the page and click the 'save&test' button. If everything input correctly there will show 'database connection OK'. If not, please change the information you input above.
-![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/images/step%203-6.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%203-6.PNG "a title")
 
 
 Now you are able to create dashboard using the mysql database information! On next secnario, we will show you how to create different dashboard to monitoring the database.
