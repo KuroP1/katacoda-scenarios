@@ -25,7 +25,7 @@ Now you are required to enter some information to connect to the mysql server. P
 - Host : the name of your 'mysql' container name.
 - database : must be mysql.
 - username : here the will use the root user since this account have all privilege.
-- *note that if you want to use another accounts on grafana, you neeed to grant all privilege to that account first. We have another senario to show you how to do, if you dont know how to do, please access "".
+- *note that if you want to use another accounts on grafana, you neeed to grant all privilege to that account first. We have another senario to show you how to do, if you dont know how to do, please access "https://www.katacoda.com/elvisyeung/scenarios/userauthorization".
 - password: Since we using root account this time,password will be the root_password that you define when create the mysql-server container.
 
 After input all information, scroll down to the bottom of the page and click the 'save&test' button. If everything input correctly there will show 'database connection OK'. If not, please change the information you input above.
