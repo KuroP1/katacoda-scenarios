@@ -1,4 +1,4 @@
-# Cookie policy generator
+# User view of your website
 
 After published your products page, you can click the 'Visit Store' button which below the 'Home' icon to try the customer view of your website and test the payment method.
 
