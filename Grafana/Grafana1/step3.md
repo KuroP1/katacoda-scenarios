@@ -20,7 +20,7 @@ Search 'mysql' and select it.
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%203-4.PNG "a title")
 
 ## 3.input mysql connection
-Now you are reqiured to input some information to connect with the mysql-server. Please input the same information like the picture. 
+Now you are required to enter some information to connect to the mysql server. Please enter the same information as in the figure.
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%203-5.PNG "a title")
 - Host : the name of your 'mysql' container name.
 - database : must be mysql.
