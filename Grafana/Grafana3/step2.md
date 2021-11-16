@@ -16,8 +16,11 @@ GROUP BY $__timeGroup(event_time,'1m')`
 Currently the will show nothing since there are no any record meet those condition. So we need to makeup some sample data to show how the alert function working.
 
 go back to the terminal, then login as wordpress_user to mysql container.
+
 `exit`{{execute}}
+
 `mysql -u wordpress_user -psecret`{{execute}}
+
 now input a SQL statement:
 `select * /* from my */ from mysql.user;`{{execute}}
 
