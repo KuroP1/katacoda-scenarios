@@ -8,5 +8,8 @@ You can see the user view of your site and there is a notice at the bottom that 
 
 ## 2. Click the 'Cookie Settings' at the bottom of the right-hand side of your site.
 - ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/GDPR/images/step5-2.PNG "a title")
+
 Users can choose to authorize which part can use the cookies to save data. This meets the right to object.
 
+About the consent, you can add or edit the consent by clicking the 'Cookie List' button to change them.
+- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/GDPR/images/step5-2.PNG "a title")
