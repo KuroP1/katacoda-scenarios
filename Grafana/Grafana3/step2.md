@@ -2,15 +2,14 @@
 
 ## Create panel to monitoring SQL injection
 Please create a time-series panel using this SQL statment
-<pre class="file" data-target="clipboard">
-SELECT $__timeGroup(event_time,'1m') as time, COUNT(*) as wordpress_user
+
+`SELECT $__timeGroup(event_time,'1m') as time, COUNT(*) as wordpress_user
 FROM mysql.general_log
 WHERE $__timeFilter(event_time) AND
       command_type LIKE "%query%" AND
       user_host LIKE "%wordpress_user%" AND
       argument LIKE "%  %"
-GROUP BY $__timeGroup(event_time,'1m')
-</pre>
+GROUP BY $__timeGroup(event_time,'1m')`
 
 ## create some test data
 
