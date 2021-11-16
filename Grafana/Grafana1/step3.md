@@ -23,7 +23,7 @@ Search 'mysql' and select it.
 
 ## 3.input mysql connection
 Now you are reqiured to input some information to connect with the mysql-server. Please input the same information like the picture. 
-![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/images/step%203-5.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%203-5.PNG "a title")
 Host : the name of your 'mysql' container name.
 database : must be mysql.
 username : here the will use the root user since this account have all privilege.
