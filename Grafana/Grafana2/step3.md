@@ -3,11 +3,14 @@ Now we know that there are many types of database attacks. How should they be de
 
 ## 1. Create some sample data
 go back to the terminal then login as wordpress_user
+
 exit{{execute}}
 
 mysql -u wordpress_user -psecret{{execute}}
 
-now input this SQL statement four time: select * /* from my */ from mysql.user;{{execute}}
+now input this SQL statement four time: 
+
+select * /* from my */ from mysql.user;{{execute}}
 
 
 ## 2.Create panel to monitoring SQL injection
