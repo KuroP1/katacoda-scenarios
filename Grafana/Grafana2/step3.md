@@ -33,7 +33,7 @@ click 'edit SQL' to modify the SQL statement.
 you can copy this SQL statement
 
 `SELECT $__timeGroup(event_time,'1m') as time, COUNT(*) as wordpress_user
-FROM mysql.general_logSELECT 
+FROM mysql.general_log
 WHERE $__timeFilter(event_time) AND
       command_type LIKE "%query%" AND
       user_host LIKE "%wordpress_user%" AND
