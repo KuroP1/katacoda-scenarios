@@ -7,7 +7,8 @@ there are two method to create mysql and wordpress containers:
 
 Before we using wordpress, we need to create a database system to store the data. So we need to setup a MYSQL container first.
 
-`docker run -d --name mysql-server -e MYSQL_ROOT_PASSWORD=12345 -e MYSQL_DATABASE=wordpress -e MYSQL_USER=wordpress_user -e MYSQL_PASSWORD=secret mysql`{{execute}}
+`docker run --name mysql -d -v mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root mysql`{{execute}}
+
 *if the image was not exist, docker will pull the image automatically.
 
 on this command,there are using some option
@@ -18,7 +19,7 @@ on this command,there are using some option
 
 ## 2.Setup the MYSQL Container
 
-`docker run -d -e WORDPRESS_DB_HOST=mysql -e WORDPRESS_DB_USER=wordpress_user -e WORDPRESS_DB_PASSWORD=secret  --link mysql-server:mysql -p 8000:80 wordpress`{{execute}}
+`docker run -d --link mysql:mysql -p 8000:80 wordpress`{{execute}}
 *if the image was not exist, docker will pull the image automatically.
 
 on this command,there are using some option
@@ -39,4 +40,4 @@ docker-compose.yml is a tool for defining and running multi-container Docker app
 After docker compose-up, you can view the .yml file in the editor. you can see there are two service which is mysql and wordpress. Also, there have environment setting for example the user_host and the password etc. 
 
 ## 3. access and setup wordpress
-Click the dashboard named "port 8000". If success there will be show the initialization of wordpress.
+Click the dashboard named "port 8000". If success there will be show the initialization of wordpress. If you are using method 2,you may skip some step since .yml file initialize the setting already.
