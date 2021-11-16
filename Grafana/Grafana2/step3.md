@@ -9,7 +9,7 @@ https://www.katacoda.com/elvisyeung/courses/grafana/grafana1
 Now, go back to the Grafana homepage add click the '+' icon.
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana2/images/step%203-1.PNG "a title")
 
-click 'add an new panel'
+click 'add an empty panel'
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana2/images/step%203-2.PNG "a title")
 
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana2/images/step%203-3.PNG "a title")
