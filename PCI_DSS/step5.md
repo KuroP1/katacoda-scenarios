@@ -1,4 +1,4 @@
-# User view of your site
+# Add products for your website
 
 After setting the functions of the 'Stripe' Plugin to 'enabled'. You can create a demo product to test is the payment method working.
 
