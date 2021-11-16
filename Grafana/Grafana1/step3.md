@@ -10,7 +10,7 @@ For security reasons, you will be asked to change your default password.
 After your change the password, click submit.
 
 ## 2.add new data source
-Now you will see the Grafana homepage like the picture. First we need to add a new data source to connect the mysql database. click the gear icon 'configuration' then click 'data sources'.
+Now you will see the Grafana homepage like the picture. First we need to add a new data source to connect with mysql database. click the gear icon 'configuration' then click 'data sources'.
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%203-2.PNG "a title")
 
 click 'add data sources'
