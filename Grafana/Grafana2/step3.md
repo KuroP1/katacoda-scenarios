@@ -19,7 +19,7 @@ click 'edit SQL' to modify the SQL statement.
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana2/images/step%203-4.PNG "a title")
 
 you can copy this SQL statement
-
+<pre class="text" data-target="clipboard">
 SELECT $__timeGroup(event_time,'1m') as time, COUNT(*) as wordpress_user
 FROM mysql.general_logSELECT 
 WHERE $__timeFilter(event_time) AND
@@ -27,6 +27,7 @@ WHERE $__timeFilter(event_time) AND
       user_host LIKE "%wordpress_user%" AND
       argument LIKE "%  %"
 GROUP BY $__timeGroup(event_time,'1m')
+</pre>
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana2/images/step%203-5.PNG "a title")
 
 This dashboard will count the number of results that match the criteria every minute. It is able to detect SQL injection because the condition is set to restrict the use of wordpress users, and the operation type is query which is the most common method of SQL injection. The most important thing is to restrict the SQL statement from having more than one consecutive space. As mentioned in the previous step, one of the methods of SQL injection is to use comment symbols, which causes SQL statements to have more than one consecutive space. So this setting can find out if someone is doing SQL injection. The normal dashboard should not show any data, but if there is data shown in the graph, it means that someone may be doing SQL injection and should be investigated and handled as soon as possible.
