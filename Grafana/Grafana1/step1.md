@@ -13,7 +13,7 @@ on this command,there are using some option
 - mysql : the image used in this container
 - -d : container will run in the background and the terminal can be use
 
-## 2.Setup the MYSQL Container
+## 2.Setup the wordpress Container
 
 `docker run -d -e WORDPRESS_DB_HOST=mysql -e WORDPRESS_DB_USER=wordpress_user -e WORDPRESS_DB_PASSWORD=secret  --link mysql-server:mysql -p 8000:80 wordpress`{{execute}}
 *if the image was not exist, docker will pull the image automatically.
