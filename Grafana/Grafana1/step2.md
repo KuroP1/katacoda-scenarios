@@ -33,13 +33,15 @@ Also, we need to change the output type become 'Table' so that all of the logs w
 
 Now check is changed or not.
 `show variables like 'log_output';`{{execute}}
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%202-3.PNG "a title")
+
 
 # What is stored in the general_log
 After enable the general_log, we can use a SQL statement to view the content inside the table.
 
 `select * from mysql.general_log; limit 10`{{execute}}
 *When the database has been running for a long time general_log may have stored a lot of records, so the limit should be added to avoid too long processing time.
-![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%202-2.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%202-4.PNG "a title")
 
 We can see that there are 6 column. Each cloumn corresponds to:
 
@@ -58,6 +60,8 @@ argument：show the SQL statement(encrypted)。
 to show the SQL statement we need to convert to UTF8.
 
 `select convert(argument using utf8) from mysql.general_log;`{{execute}}
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%202-5.PNG "a title")
+
 
 All operation on wordpress will be record in this table and we can view inside the mysql container. However, this is very inconvenient. Therefore we should use grafana to help us visualize all data.
 
