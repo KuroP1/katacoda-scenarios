@@ -16,18 +16,17 @@
             {
                 "title": "Step 3",
                 "text": "step3.md"
-            },
-            {
-                "title": "Step 4",
-                "text": "step4.md"
             }
         ],
         "intro": {
             "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
         }
     },
     "environment": {
-        "uilayout": "terminal",
+        "uilayout": "editor-terminal",
         "showdashboard": true,
         "dashboards": [
             {

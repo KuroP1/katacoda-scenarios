@@ -1,28 +1,22 @@
-# Setup wordpress
-You need to finish the initialization of wordpress before use. Please follow the instruction.
+# Install Woocommerce
 
-## 1. Select language
-- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/install/images/step3-1.PNG "a title")
+After finish the installation of wordpress, we need to install Woocommerce.
 
-select what language your company will going to use and click next
+## 1. Log in.
+- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/install/images/step4-1.PNG "a title")
 
-- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/install/images/step3-2.PNG "a title")
+## 2. Install Plugins
+- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/install/images/step4-2.PNG "a title")
+click 'Plugins' on the left menu bar, than click 'add new'.
+- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/install/images/step4-3.PNG "a title")
+here you can install many different plugins. look at the top right and search 'woocommerce'.
+- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/install/images/step4-4.PNG "a title")
+install 'Woocommerce'. click 'activate' after install successful. The page will be refresh and take some time.
 
-click let's go
+## 3. Start using woocommerce
+- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/install/images/step4-5.PNG "a title")
+If your screen is similar with the picture, congratulation! finish the initialization of woocommerce and you are able to use Woocommerce!
 
-## 2. Enter your database connection details.
-- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/install/images/step3-3.PNG "a title")
 
-follow the tips to fill in each column. In this case username and password must be 'root', and database name and host must be 'mysql' since we are using mysql as our database.
 
-## 3. Run the installation.
-- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/install/images/step3-4.PNG "a title")
 
-if every column input correctly, this screen will be show. Click 'run the installation' to continue.
-- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/install/images/step3-5.png "a title")
-
-Here you are required to create an account. You can follow the picture to fill in. Afterthat click 'install WordPress'.
-
-- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/install/images/step3-6.PNG "a title")
-
-everything is ready. now you can start using wordpress.
