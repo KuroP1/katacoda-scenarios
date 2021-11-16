@@ -5,10 +5,10 @@ Please follow the below instructions to install 'WooCommerce Stripe Payment Gate
 ## 1. Go to plugin page and click the 'Add new' button.
 - ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/PCI_DSS/images/step3-1.PNG "a title")
 
-## 2. Enter 'CookieYes' in the search bar.
+## 2. Enter 'WooCommerce Stripe Payment Gateway' in the search bar.
 - ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/PCI_DSS/images/step3-2.PNG "a title")
 
-## 3. Click the 'Install' button to install the 'CookieYes' plugin.
+## 3. Click the 'Install' button to install the 'WooCommerce Stripe Payment Gateway' and 'Payment Plugins for Stripe WooCommerce' plugin.
 - ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/PCI_DSS/images/step3-3.PNG "a title")
 - ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/PCI_DSS/images/step3-4.PNG "a title")
 
