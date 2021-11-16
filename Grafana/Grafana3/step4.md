@@ -28,5 +28,5 @@ the yellow line is the time that the conditon detected.
 Red line is the time that sent out the alert message.
 
 Also,You can use this SQL statement to test if you can alert and send a notification
-
+`select * /* from my */ from mysql.user;`{{execute}}
 
