@@ -1,5 +1,3 @@
-# A simple understanding of the rights of individuals is provided by the GDPR.
-
 There are a total of 8 rights for individuals is provided by the GDPR. Respectively are the right to be informed, right of access, right to rectification, right to erasure, right to restrict processing, right to data portability, right to object and rights in relation to automated decision making and profiling. 
 
 ## The right to be informed
