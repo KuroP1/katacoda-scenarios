@@ -41,7 +41,7 @@ click 'add panel' button to create new panel.
 
 This time we need to change the type of this panel.
 click the 'Time series' on the upper right corner and find 'Bar Chart' during the dropdown menu.
-![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana2/images/step%203-7.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana2/images/step%203-7.PNG "a title")
 
 click 'edit SQL' to modify the SQL statement and copy this SQL statement
 <pre class="text" data-target="clipboard">
@@ -56,4 +56,4 @@ Limit 10;
 </pre>
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana2/images/step%203-8.PNG "a title")
 
-This dashboard will count the number of times the same SQL statement is executed. Also, because of the conditional limits, it helps to determine if these statements are used as DDos. Administrators should check which user is running the SQL statement when the number of times it is executed is greater than a certain value and limit the account.
+This dashboard will count the number of times the same SQL statement is executed. Also, because of the conditional limits, it helps to determine if these statements are used as DDos. Administrators should check which user is running th SQL statement when the number of times it is executed is greater than a certain value and limit the account.
