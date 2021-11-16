@@ -1,4 +1,4 @@
-# Install 'CookieYes' Plugin
+# Install 'WooCommerce Stripe Payment Gateway' and 'Payment Plugins for Stripe WooCommerce' Plugin
 
 Please follow the below instructions to install 'WooCommerce Stripe Payment Gateway' and 'Payment Plugins for Stripe WooCommerce' Plugin.
 
