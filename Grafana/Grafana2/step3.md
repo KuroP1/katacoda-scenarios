@@ -3,10 +3,15 @@ Now we know that there are many types of database attacks. How should they be de
 
 ## 1. Create some sample data
 go back to the terminal then login as wordpress_user
+exit{{execute}}
+
+mysql -u wordpress_user -psecret{{execute}}
+
+now input this SQL statement four time: select * /* from my */ from mysql.user;{{execute}}
 
 
 ## 2.Create panel to monitoring SQL injection
-Assuming you have completed all settings correctly.If there are any problem, please go back to pervious course to learn again.
+Assuming you have completed all settings correctly.If there are any problem, please go back to pervious course to check again.
 https://www.katacoda.com/elvisyeung/courses/grafana/grafana1
 
 
