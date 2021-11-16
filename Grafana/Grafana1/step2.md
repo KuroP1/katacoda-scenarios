@@ -17,8 +17,9 @@ then login as root user
 
 After login successful, use sql statement to check the general_log is enable or not.
 `show variables like '%general%';`{{execute}}
-![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/images/step%202-1.PNG "a title")
-- As you can see, the general_log value is 'OFF'. We need to excute some SQL statement to enable it.
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%202-1.PNG "a title")
+
+As you can see, the general_log value is 'OFF'. We need to excute some SQL statement to enable it.
 
 `set global general_log=on;`{{execute}}
 
@@ -38,7 +39,7 @@ After enable the general_log, we can use a SQL statement to view the content ins
 
 `select * from mysql.general_log; limit 10`{{execute}}
 *When the database has been running for a long time general_log may have stored a lot of records, so the limit should be added to avoid too long processing time.
-![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/images/step%202-2.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana1/images/step%202-2.PNG "a title")
 
 We can see that there are 6 column. Each cloumn corresponds to:
 
