@@ -56,6 +56,7 @@ click the 'Time series' on the upper right corner and find 'Bar Chart' during th
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana2/images/step%203-7.PNG "a title")
 
 click 'edit SQL' to modify the SQL statement and copy this SQL statement
+*note that the 'format as' should change to 'table'
 
 `SELECT convert(argument using utf8), count(*)
 FROM mysql.general_log
