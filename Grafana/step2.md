@@ -38,7 +38,7 @@ After enable the general_log, we can use a SQL statement to view the content ins
 
 `select * from mysql.general_log; limit 10`{{execute}}
 *When the database has been running for a long time general_log may have stored a lot of records, so the limit should be added to avoid too long processing time.
-[Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/grafana/images/step2-2.PNG "a title")
+![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/images/step%202-2.PNG "a title")
 
 We can see that there are 6 column. Each cloumn corresponds to:
 
