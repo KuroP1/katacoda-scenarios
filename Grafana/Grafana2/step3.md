@@ -19,15 +19,15 @@ click 'edit SQL' to modify the SQL statement.
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana2/images/step%203-4.PNG "a title")
 
 you can copy this SQL statement
-<pre class="text" data-target="clipboard">
-SELECT $__timeGroup(event_time,'1m') as time, COUNT(*) as wordpress_user
+
+`SELECT $__timeGroup(event_time,'1m') as time, COUNT(*) as wordpress_user
 FROM mysql.general_logSELECT 
 WHERE $__timeFilter(event_time) AND
       command_type LIKE "%query%" AND
       user_host LIKE "%wordpress_user%" AND
       argument LIKE "%  %"
-GROUP BY $__timeGroup(event_time,'1m')
-</pre>
+GROUP BY $__timeGroup(event_time,'1m')`
+
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana2/images/step%203-5.PNG "a title")
 
 This dashboard will count the number of results that match the criteria every minute. It is able to detect SQL injection because the condition is set to restrict the use of wordpress users, and the operation type is query which is the most common method of SQL injection. The most important thing is to restrict the SQL statement from having more than one consecutive space. As mentioned in the previous step, one of the methods of SQL injection is to use comment symbols, which causes SQL statements to have more than one consecutive space. So this setting can find out if someone is doing SQL injection. The normal dashboard should not show any data, but if there is data shown in the graph, it means that someone may be doing SQL injection and should be investigated and handled as soon as possible.
@@ -44,16 +44,16 @@ click the 'Time series' on the upper right corner and find 'Bar Chart' during th
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana2/images/step%203-7.PNG "a title")
 
 click 'edit SQL' to modify the SQL statement and copy this SQL statement
-<pre class="text" data-target="clipboard">
-SELECT convert(argument using utf8), count(*)
+
+`SELECT convert(argument using utf8), count(*)
 FROM mysql.general_log
 WHERE $__timeFilter(event_time) and
 user_host like '%wordpress_user%' and
 command_type LIKE "%query%"
 GROUP BY 1
 ORDER BY 2 desc
-Limit 10;
-</pre>
+Limit 10;`
+
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana2/images/step%203-8.PNG "a title")
 
 This dashboard will count the number of times the same SQL statement is executed. Also, because of the conditional limits, it helps to determine if these statements are used as DDos. Administrators should check which user is running th SQL statement when the number of times it is executed is greater than a certain value and limit the account.
