@@ -1,7 +1,11 @@
 # Create dashboard on Grafana
 Now we know that there are many types of database attacks. How should they be detected? we will teach how to use dashboard to achieve it
 
-## 1.Create panel to monitoring SQL injection
+## 1. Create some sample data
+go back to the terminal then login as wordpress_user
+
+
+## 2.Create panel to monitoring SQL injection
 Assuming you have completed all settings correctly.If there are any problem, please go back to pervious course to learn again.
 https://www.katacoda.com/elvisyeung/courses/grafana/grafana1
 
@@ -32,7 +36,7 @@ GROUP BY $__timeGroup(event_time,'1m')`
 
 This dashboard will count the number of results that match the criteria every minute. It is able to detect SQL injection because the condition is set to restrict the use of wordpress users, and the operation type is query which is the most common method of SQL injection. The most important thing is to restrict the SQL statement from having more than one consecutive space. As mentioned in the previous step, one of the methods of SQL injection is to use comment symbols, which causes SQL statements to have more than one consecutive space. So this setting can find out if someone is doing SQL injection. The normal dashboard should not show any data, but if there is data shown in the graph, it means that someone may be doing SQL injection and should be investigated and handled as soon as possible.
 
-## 2.Create dashboard to monitoring DDos
+## 3.Create dashboard to monitoring DDos
 
 now click 'apply' on the upper right corner and go back to the dashboard.
 
