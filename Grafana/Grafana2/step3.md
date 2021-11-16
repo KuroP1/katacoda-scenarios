@@ -3,6 +3,8 @@ Now we know that there are many types of database attacks. How should they be de
 
 ## 1.Create panel to monitoring SQL injection
 Assuming you have completed all settings correctly.If there are any problem, please go back to pervious course to learn again.
+https://www.katacoda.com/elvisyeung/courses/grafana/grafana1
+
 
 Now, go back to the Grafana homepage add click the '+' icon.
 ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/Grafana/Grafana2/images/step%203-1.PNG "a title")
