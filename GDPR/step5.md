@@ -12,4 +12,4 @@ You can see the user view of your site and there is a notice at the bottom that 
 Users can choose to authorize which part can use the cookies to save data. This meets the right to object.
 
 About the consent, you can add or edit the consent by clicking the 'Cookie List' button to change them.
-- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/GDPR/images/step5-2.PNG "a title")
+- ![Alt text](https://raw.githubusercontent.com/KuroP1/katacoda-scenarios/main/GDPR/images/step5-3.PNG "a title")
