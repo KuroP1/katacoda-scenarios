@@ -29,10 +29,10 @@ on this command,there are using some option
 without using docker-run ,we can git clone a .yml file to run both two container.
 docker-compose.yml is a tool for defining and running multi-container Docker applications. It can also include some configuration and mount volume before running container.
 
-## 1. download `docker-compose.yml` file
+#  download `docker-compose.yml` file
 - `git clone https://github.com/KuroP1/docker-compose.git`{{execute}}
 
-## 2. launch docker containers
+#  launch docker containers
 - `cd docker-compose`{{execute}}
 - `docker-compose up -d`{{execute}}
 
